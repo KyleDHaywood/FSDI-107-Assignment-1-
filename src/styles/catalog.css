@@ -1,0 +1,14 @@
+.catalog {
+  background-color: cadetblue;
+  min-height: 300px;
+  justify-self: center;
+}
+
+.catalog .productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h2 {
+  text-align: center;
+}
