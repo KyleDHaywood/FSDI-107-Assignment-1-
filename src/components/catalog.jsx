@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../../public/styles/catalog.css";
+import "../styles/catalog.css";
 import Product from "./product";
 import DataService from "../services/service";
 
@@ -27,11 +27,10 @@ const Catalog = () => {
   return (
     // GET DATA HERE
     <div className="catalog">
-      <h2>View Our Products</h2>
       <h5>There are {products.length} products</h5>
       {console.log("component rendered")}
 
-      <div className="productList">
+      <div className="productList main_grid">
         {products.map((p) => (
           <Product key={p._id} data={p}></Product>
         ))}

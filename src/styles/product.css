@@ -1,7 +1,25 @@
-.product {
-  background-color: cornflowerblue;
-  color: cornsilk;
-  border: solid 1px blue;
-  margin: 5px;
+.productCard {
+  border: 5px solid #393939;
+  background-color: #919191;
+  padding: 5%;
+}
+
+.productCard p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.imgCircle {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-top: 15px;
+  margin-left: 13%;
+}
+.product h3 {
+  color: #811f19;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin: 30px 0;
   text-align: center;
 }
