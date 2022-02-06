@@ -1,4 +1,7 @@
-.navBar h1 {
-  color: darkblue;
-  text-align: center;
-}
+/* nav {
+  height: 85px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */

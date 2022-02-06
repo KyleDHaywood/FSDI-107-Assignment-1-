@@ -1,6 +1,8 @@
 .footer {
   color: gray;
 }
-.footer {
+.footer a {
   display: inline-flex;
+  font-size: 23px;
+  text-decoration: none;
 }

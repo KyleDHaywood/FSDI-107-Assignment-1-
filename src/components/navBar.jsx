@@ -3,7 +3,7 @@ import "../styles/navBar.css";
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="App.js">
         Navbar
       </a>
       <button
@@ -21,19 +21,19 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">
-              Home <span className="sr-only">(current)</span>
+            <a className="nav-link" href="App.js">
+              Home <span className="sr-only"></span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="App.js">
               Link
             </a>
           </li>
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
-              href="#"
+              href="app.js"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
@@ -43,20 +43,20 @@ const NavBar = () => {
               Dropdown
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="App.js">
                 Action
               </a>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="App.js">
                 Another action
               </a>
               <div className="dropdown-divider"></div>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="App.js">
                 Something else here
               </a>
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link disabled" href="#">
+            <a className="nav-link disabled" href="App.js">
               Disabled
             </a>
           </li>
